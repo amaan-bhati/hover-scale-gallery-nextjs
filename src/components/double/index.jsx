@@ -41,7 +41,6 @@ export default function Index({projects, reversed}) {
             window.requestAnimationFrame(animate)
         }
     }
-
     return(
       <div onMouseMove={(e) => {manageMouseMove(e)}} className={styles.double}>
   
